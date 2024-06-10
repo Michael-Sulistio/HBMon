@@ -11,7 +11,7 @@ model = tf.keras.models.load_model('ML_Program', custom_objects=custom_objects)
 
 @app.route('/')
 def home():
-    return "HB prediction server"
+    return "Hb prediction server"
 
 @app.route('/predict', methods=['POST'])
 def predict():
